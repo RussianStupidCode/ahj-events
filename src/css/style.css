@@ -107,6 +107,91 @@ img {
   border: 0.5vw solid orange;
 }
 
+.task-field {
+  margin-top: 2vw;
+}
+
+.task {
+  width: 90%;
+  height: 3vw;
+  font-size: 2.5vw;
+  border-radius: 1vw;
+  border: 0.2vw solid black;
+  padding: 0.2vw 1vw;
+  margin: 1vw 1vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-name {
+}
+
+.task-state-block {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  border: 0.2vw solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-state-img {
+  width: 95%;
+  height: 95%;
+  padding: 0.1vw;
+}
+
+.tasks {
+  padding: 1vw;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50vw;
+  height: 100%;
+
+  border: 0.5vw solid green;
+}
+
+.tasks-block {
+  margin: 1vw;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tasks-block input {
+  width: 90%;
+  padding: 1vw;
+  margin: 1vw;
+  align-self: center;
+}
+
+.task-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.tasks-block-empty-msg {
+}
+
 .hide {
   display: none;
 }

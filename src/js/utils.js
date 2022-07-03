@@ -12,3 +12,9 @@ export function getSorted(objectList, attribute) {
     return a[attribute] > b[attribute] ? -1 : 1;
   });
 }
+
+export function filterObject(object, regex) {
+  return Object.fromEntries(
+    Object.entries(object).filter((entry) => regex.test(entry[0]))
+  );
+}

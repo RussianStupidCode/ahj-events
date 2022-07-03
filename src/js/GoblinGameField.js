@@ -32,7 +32,7 @@ export default class GoblinGameField extends GameField {
   }
 
   render(parentElement) {
-    parentElement.append(this.el);
+    parentElement.insertAdjacentElement('beforeEnd', this.el);
 
     this.field.forEach((rowEl) => {
       rowEl.forEach((cell) => {
